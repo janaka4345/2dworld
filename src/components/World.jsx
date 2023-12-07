@@ -9,7 +9,7 @@ export default function World() {
       <OrbitControls makeDefault />
       <axesHelper args={[2]} />
       <color attach="background" args={["#000000"]} />
-      <Physics debug gravity={[0, -9.81]}>
+      <Physics debug>
         <Lights />
         <Planee />
       </Physics>
